@@ -3,12 +3,12 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut as firebaseSignOut, FacebookAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDrtXVclBpiiejuIRd_GUC1M1iS3IIQvfY",
-    authDomain: "the-road-coding.firebaseapp.com",
-    projectId: "the-road-coding",
-    storageBucket: "the-road-coding.appspot.com",
-    messagingSenderId: "880847463846",
-    appId: "1:880847463846:web:5f7827a55e93224a0f1b67"
+    apiKey: "AIzaSyDqUx6K_72hs3LdSdDtMDM-LFdx7c1I0GQ",
+    authDomain: "the-road-coding-ecc7b.firebaseapp.com",
+    projectId: "the-road-coding-ecc7b",
+    storageBucket: "the-road-coding-ecc7b.firebasestorage.app",
+    messagingSenderId: "1063441098202",
+    appId: "1:1063441098202:web:6fdffeb1d4ee6769344ce3"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -31,4 +31,4 @@ const loginFacebook = () => {
 
 
 
-export { auth, signInWithGoogle, signOut,loginFacebook };
+export { auth, signInWithGoogle, signOut, loginFacebook };
