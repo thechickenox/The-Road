@@ -1,9 +1,9 @@
 The road
 
-una plataforma web con React y Firebase enfocada en la enseñanza de lenguajes de programación 
-mediante módulos interactivos y un diseño responsivo accesible desde cualquier dispositivo.
+a web platform with React and Firebase focused on teaching programming languages 
+through interactive modules and a responsive design accessible from any device.
 
-Capturas de la aplicacion
+Application screenshots
 
 
 ![Pagina inicial](./src/assets/Proyect/Landing.png)
